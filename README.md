@@ -105,11 +105,13 @@ pesado. Encontre a bola mais pesada com 2 usos da balança
 
 <summary>Veja a resposta!</summary>
 
+```
 Separe as bolas em 3 conjuntos de 3 bolas. Meça dois
 conjuntos. Assim, você saberá em qual conjunto está a
 bola mais pesada.
 Divida este conjunto em 3 novos conjuntos de uma bola e
 meça novamente. Assim encontramos a bola.
+```
 
 </details>
 
@@ -131,6 +133,7 @@ or the other?
 
 <summary>Veja a resposta!</summary>
 
+```
 Probabilidade de ganhar:
 - Game 1: p
 - Game 2: p * p * p + p * p * (1-p) + p * (1-p) * p + (1-p) * p * p = 3*(1-p)*p² + p^3 = 3p² - 2p³
@@ -153,6 +156,7 @@ Sendo assim, se p ∈ {0, 0.5, 1}, então tanto faz se é
 jogado o Game 1 ou Game 2. Se 0 < p < 0.5, então o melhor
 é jogar o Game 1. Se 0.5 < p < 1, então é mais vantajoso
 o Game 2.
+```
 
 [Solução](Game.cpp)
 </details>
@@ -165,10 +169,11 @@ dominos to cover the entire board?
 
 <summary>Veja a resposta!</summary>
 
+```
 8*8 = 64
 64 - 2 = 62.
 
-Cada peça ocupa 2 espaços. `31 * 2 == 62`. Há espaço para
+Cada peça ocupa 2 espaços. 31 * 2 == 62. Há espaço para
 todas as peças.
 
 Padrão: Cada peça deita-se, necessariamente, sob uma peça
@@ -176,6 +181,9 @@ branca e outra preta. Há 32 peças pretas e 30 brancas, ou
 30 pretas e 32 brancas, pois retiramos as pontas 
 diagonalmente opostas. Logo, não podemos posicionar as 31
 peças no tabuleiro!
+```
+   
+Para uma explicação melhor, veja [este video](https://www.coursera.org/learn/what-is-a-proof/lecture/LowcM/impossibility-proof)!.
 
 </details>
 
@@ -188,6 +196,7 @@ that they walk at the same speed.
 
 <summary>Veja a resposta!</summary>
 
+```
 Vamos simplificar dizendo que a formiga pode andar em
 sentido horario ou anti-horário.
 
@@ -199,7 +208,8 @@ Como a probabilidade de alguem colidir, é igual a 100
 menos a probabilidade de não colidir, a chance de colidir
 é:
     p = 1 - (1/2)³ + (1/2)³ = 1 - (1/2)² = 0.75
-
+```
+   
 </details>
 
 6. Similarly, find the probability of collision with n ants on an  n-vertex polygon.
@@ -208,11 +218,13 @@ menos a probabilidade de não colidir, a chance de colidir
 
 <summary>Veja a resposta!</summary>
 
-Precisamos que todas as n formigas, escolham o mesmo 
+```
+Precisamos que todas as n formigas, escolham o mesmo
 sentido, horário ou anti-horário
     (1/2)^n + (1/2)^n
 
 Ou seja, a probabilidade de colisão é:
     p = 1 - (1/2)^(n-1)
+```
 
 </details>
