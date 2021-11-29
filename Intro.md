@@ -93,8 +93,7 @@ Lembretes:
 ocorrência do outro: P(A∩B) = P(A) * P(B), isso porque 
 P(B|A) = P(B)
 - **Mutualmente Excludente:** Se um acontece, o outro 
-não pode acontecer: P(A∪B) = P(A) + P(B), pois P(A∩B) = 
-0.
+não pode acontecer: P(A∪B) = P(A) + P(B), pois P(A∩B) = 0.
 
 ## Problemas
 
