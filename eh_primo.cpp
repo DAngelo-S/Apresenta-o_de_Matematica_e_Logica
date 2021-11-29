@@ -8,7 +8,7 @@ bool is_prime(int n) {
         return false;
     }
 
-    maxn = sqrt(n);
+    int maxn = sqrt(n);
     
     for (int i = 2; i <= maxn; i++) {
         if (n % i == 0) {
