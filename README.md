@@ -183,7 +183,7 @@ diagonalmente opostas. Logo, não podemos posicionar as 31
 peças no tabuleiro!
 ```
    
-Para uma explicação melhor, veja [este video](https://www.coursera.org/learn/what-is-a-proof/lecture/LowcM/impossibility-proof)!.
+Para uma explicação melhor, veja [este video](https://www.coursera.org/learn/what-is-a-proof/lecture/9GGMC/impossibility-proof-ii-and-conclusion)!.
 
 </details>
 
